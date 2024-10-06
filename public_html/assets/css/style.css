@@ -569,11 +569,71 @@ pre code {
   }
 }
 
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 }
+
+
+
+
+
+
+
+
+.experience-container {
+  display: block; /* Display each card individually */
+}
+
+.experience-card {
+  width: 100%; /* Full width for each card */
+  max-width: 1000px; /* Fixed max width like the first one */
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.content-holder {
+  padding: 15px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience-details {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-details li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .experience-card {
+      width: 100%; /* Full width on smaller screens */
+      max-width: 100%; /* Override fixed width for mobile */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container-fluid {
   width: 100%;

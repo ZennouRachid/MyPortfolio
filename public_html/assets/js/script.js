@@ -8,7 +8,7 @@ function SendMail(event) {
   };
 
   emailjs
-    .send("service_hhe4fum", "template_pycr4eo", params)
+    .send("service_fon6rww", "template_pycr4eo", params)
     .then(function (res) {
       alert("Success! " + res.status);
     })
